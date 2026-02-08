@@ -1,7 +1,5 @@
-## Remnawave Subscription Page
 # Remnawave Subscription Page Fork
 
-Learn more about Remnawave [here](https://remna.st/).
 ## Редактор конфигураций Remnawave
 Проект ориентирован на простое и легкое редактирование конфигов, под mihomo, внутри remnawave sub-page 
 
@@ -13,7 +11,6 @@ Learn more about Remnawave [here](https://remna.st/).
 - Замена select'ов в proxy-groups
 - Удаление select'ов в конфигурации
 
-Check [open issues](https://github.com/remnawave/subscription-page/issues) to help the progress of this project.
 ### Добавлены/изменены файлы
 - backend/src/modules/root/mihomo-layer.service.ts (новый)
 - backend/src/modules/root/root.service.ts
@@ -22,14 +19,7 @@ Check [open issues](https://github.com/remnawave/subscription-page/issues) to he
 - backend/src/common/constants/index.ts
 - backend/src/common/constants/ignored-headers.constant.ts
 
-<p align="center">
-Thanks to the all contributors who have helped improve Remnawave:
-</p>
-<p align="center">
-<a href="https://github.com/remnawave/subscription-page/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=remnawave/subscription-page" />
-</a>
-</p>
+
 ### Что вообще происходит?
 - Когда ответ на подписку выглядит как Mihomo YAML (содержит прокси-серверы
   и/или прокси-групп), он анализируется и переписывается заново на основе правил:
